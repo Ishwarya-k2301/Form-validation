@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: url(https://img.freepik.com/free-vector/copy-space-bokeh-spring-lights-background_52683-55649.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* backdrop-filter: blur(100); */
+}
+.Container
+{
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+form
+{
+    
+    /* backdrop-filter: blur(10); */
+   /* background-color: rgb(158, 246, 131);*/
+    border: 1px solid rgb(31, 246, 217);
+    padding: 40px 35px 35px 40px;
+    opacity: 20px;
+    margin-top: 30px;
+    border-radius: 30px;
+
+
+}
+h3
+{
+    margin-top: -20px;
+    color: rgb(5, 82, 13);
+    text-align:center;
+    font-size: 30px;
+    font-weight: bold;
+   /* text-decoration: underline rgb(35, 112, 16);*/
+}
+h3:hover{
+    text-decoration: blicking;
+}
+label
+{
+    color: rgb(239, 11, 212);
+    margin-top: 10px;
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+}
+input,textarea
+{
+    display: block;
+    font-size: 20px;
+    color:black;
+    background: none;
+    /* margin-top: 10px; */
+    padding: 10px 50px 10px 0px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(3, 81, 226);
+}
+input:focus,textarea:focus
+{
+    border-bottom: 3px solid rgb(47, 231, 47);
+}
+::placeholder
+{
+    color: rgb(99, 96, 96);
+}
+.center
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.center input
+{
+    background-color: green;
+    padding: 15px 25px;
+    border-radius: 50px;
+    border: none;
+}
+.center input:hover
+{
+    transform: scale(1.1);
+}
+.error
+{
+    color: red;
+}
+.border-border
+{
+    border-bottom: 3px solid red;
+}
+.success
+{
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(2, 231, 2);
+}
